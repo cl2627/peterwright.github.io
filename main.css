@@ -1,7 +1,7 @@
-.header {
+.navbar {
   display: inline;
   justify-content: space-between;
   background-color: #dcdcdc;
-  
+  font-family: Georgia;
   color: #dcdcdc;
 }  
