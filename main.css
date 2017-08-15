@@ -31,7 +31,7 @@ header p {
 .jumbotron {
   display: flex;
   align-items: center;
-  background-image: url('https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/jumbotron.jpg');
+  background-image: url('https://www.brewster.ca/brewster_travel/media/Images/Attractions/Glacier-Skywalk/BN-Glacier-Skywalk-Below-Far.jpg?width=1400&height=800&ext=.jpg');
   background-size: cover;
   color: #ffffff;
   height: 500px;
