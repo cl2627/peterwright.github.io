@@ -1,6 +1,7 @@
-.navbar {
+.header {
   display: inline;
   justify-content: space-between;
   background-color: #dcdcdc;
+  
   color: #dcdcdc;
 }  
