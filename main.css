@@ -3,6 +3,8 @@ body {
   font-weight: 300;
 }
 
+
+
 header {
   padding: 20px 0;
 }
@@ -11,11 +13,16 @@ header .row,
 footer .row {
   display: flex;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 header h1 {
   font-weight: 700;
   margin: 0;
+}
+
+header h3 {
+  font-weight: normal;
 }
 
 header nav {
@@ -29,8 +36,8 @@ header p {
 }
 
 .jumbotron {
-  display: flex;
-  align-items: center;
+  display: block;
+  align-items: left;
   background-image: url('https://www.brewster.ca/brewster_travel/media/Images/Attractions/Glacier-Skywalk/BN-Glacier-Skywalk-Below-Far.jpg?width=1400&height=800&ext=.jpg');
   background-size: cover;
   color: #ffffff;
@@ -95,4 +102,8 @@ footer ul {
 footer li img {
   width: 32px;
   height: 32px;
+}
+
+.description {
+  font-size: 30px;
 }
