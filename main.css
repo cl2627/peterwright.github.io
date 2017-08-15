@@ -1,11 +1,4 @@
 .navbar {
   display: inline;
+  padding: 0;
 }  
-
-.navbar-collapse { padding: 0; } /* forces the nav to take full container with */
-.navbar > li > a { text-transform: uppercase; }
-.navbar > li:first-child { text-align: left; } /* alligns first element to the left border */
-.navbar > li:last-child { text-align: right; } /* similar for right border */
-.navbar > li:first-child > a, .navbar-nav > li:last-child > a { padding: 0; }
-.navbar { display: table; width: 100%; margin: 0; }
-.navbar > li { display: table-cell; text-align: center; float: none; }
