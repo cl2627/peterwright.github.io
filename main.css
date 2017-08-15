@@ -3,8 +3,6 @@ body {
   font-weight: 300;
 }
 
-
-
 header {
   padding: 20px 0;
 }
@@ -13,7 +11,6 @@ header .row,
 footer .row {
   display: flex;
   align-items: center;
-  margin-bottom: 30px;
 }
 
 header h1 {
@@ -45,6 +42,10 @@ header p {
   text-shadow: 0.25px 0.25px 0.25px #000000;
 }
 
+.jumbotron h1 {
+  margin-left: 50px;
+}
+
 .jumbotron h2 {
   font-size: 60px;
   font-weight: 700;
@@ -55,6 +56,7 @@ header p {
 .jumbotron h3 {
   margin: 0 0 20px;
   color: #fff;
+  margin-left: 50px;
 }
 
 section .row img {
@@ -87,23 +89,34 @@ section .row img {
 
 footer {
   font-size: 12px;
-  padding: 20px 0;
+  display: table;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer .col-sm-8 {
   display: flex;
-  justify-content: flex-end;
+  text-align: center;
 }
 
 footer ul {
   list-style: none;
+  text-align: center;
 }
 
 footer li img {
   width: 32px;
   height: 32px;
+  text-align: center;
 }
 
 .description {
   font-size: 30px;
+  padding: 10px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
 }
