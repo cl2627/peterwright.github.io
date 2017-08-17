@@ -23,12 +23,17 @@
     
     p{
       font-size: 1.75rem;
+      margin-left: 15px;
     }
     
     #map {
       height: 400px;
       width: 100%;
        }
+    
+    h3{
+      margin-left: 15px;
+    }
   </style>
   
   
@@ -68,13 +73,13 @@
 </div>
   
 <!-- Contact Form -->
-
+  <h3>Find us here</h3>
     <div id="map"></div>
     <script>
       function initMap() {
         var uluru = {lat: 49.230162, lng: -122.823015};
         var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 13,
+          zoom: 14,
           center: uluru
         });
         var marker = new google.maps.Marker({
@@ -91,7 +96,17 @@
   
   <!-- Contact Info -->
   
-  
+  <h3>Address</h3>
+  <p>2403 Canoe Avenue<br>
+    Coquitlam, BC V3K 6A9<br>
+    CANADA<br></p>
+    
+  <h3>Contact</h3>
+    <p>Toll free:	1(888) 419-1998<br>
+    Phone:	(604) 945-8845<br>
+    Fax:	(604) 945-8849<br></p>
+    <a href="mailto:sales@peterwright.com"><p>email:	sales@peterwright.com</p></a>
+
   
 <!-- Footer -->
 
